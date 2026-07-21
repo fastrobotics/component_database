@@ -1,4 +1,7 @@
 # Component Database
+- [Component Database](#component-database)
+- [Setup](#setup)
+- [Components](#components)
 
 # Setup
 
@@ -16,3 +19,6 @@ git clone --recurse-submodules https://github.com/fastrobotics/component_databas
 cd <repo>
 ./scripts/setup_ide.sh
 ```
+
+# Components
+[Components](Components/Components.md)
