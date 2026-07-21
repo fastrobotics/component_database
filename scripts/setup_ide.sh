@@ -11,3 +11,4 @@ popd
 sudo apt install clang-format
 snap install lychee
 python3 -m pip install --user cookiecutter
+pre-commit install
