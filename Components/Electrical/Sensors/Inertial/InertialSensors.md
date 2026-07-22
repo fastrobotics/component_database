@@ -29,12 +29,12 @@
 - https://www.pololu.com/product/2862
 # Sensor: NavX MXP IMU
 
-![](images/NavXIMU/NavXIMU.png)
+![](artifacts/NavXIMU/NavXIMU.png)
 
 [User Guide](artifacts/NavXIMU/UserGuide.pdf)
 
 # Sensor: Sparkfun 9DoF Razor IMU
-![](images/9DoFRazorIMU/9DoFRazorIMU.jpg)
+![](artifacts/9DoFRazorIMU/9DoFRazorIMU.jpg)
 
 [User Guide](artifacts/9DoFRazorIMU/UserGuide.pdf)
 
@@ -53,6 +53,6 @@ sudo usermod -a -G dialout $USER
 # Sensor: Adafruit LSM9DS0
 
 # Sensor: Robotshop TM151
-![](images/RobotshopTM151/RobotshopTM151.png)
+![](artifacts/RobotshopTM151/RobotshopTM151.png)
 
 [User Guide](artifacts/RobotshopTM151/TransducerM_TM100-200_UserGuide_EN_V131.pdf)
