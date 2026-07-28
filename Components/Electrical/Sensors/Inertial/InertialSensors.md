@@ -36,9 +36,13 @@
 # Sensor: Sparkfun 9DoF Razor IMU
 ![](artifacts/9DoFRazorIMU/9DoFRazorIMU.jpg)
 
+[Vendor Link](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all)
+
 [User Guide](artifacts/9DoFRazorIMU/UserGuide.pdf)
 
 [Data Sheet](artifacts/9DoFRazorIMU/DataSheet.pdf)
+
+
 
 ## Getting Started
 ### Setup
@@ -55,4 +59,8 @@ sudo usermod -a -G dialout $USER
 # Sensor: Robotshop TM151
 ![](artifacts/RobotshopTM151/RobotshopTM151.png)
 
+[Vendor Link](https://www.robotshop.com/products/transducerm-ahrs-9-axis-imu-for-robotics-autonomous-vehicles-tm151-tm171?srsltid=AfmBOoqOG8qVXYtEs8XnNk-hWy95FQ71PhYior65ziFs_HUChezgHLE8)
+
 [User Guide](artifacts/RobotshopTM151/TransducerM_TM100-200_UserGuide_EN_V131.pdf)
+
+[Sample Code](artifacts/RobotshopTM151/TransducerM_Lib_Protocol_CPP/)
