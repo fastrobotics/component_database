@@ -19,7 +19,7 @@
 | ------ |
 | Pololu |
 
-[IMU Comparison](artifacts/IMUComparison.ods)
+[IMU Comparison](IMUComparison.ods)
 
 # Sensors to Consider:
 - https://www.adafruit.com/product/4569
@@ -31,27 +31,27 @@
 - https://www.pololu.com/product/2862
 # Sensor: NavX MXP IMU
 
-![](artifacts/NavXIMU/NavXIMU.png)
+![](NavXIMU/NavXIMU.png)
 
-[User Guide](artifacts/NavXIMU/UserGuide.pdf)
+[User Guide](NavXIMU/UserGuide.pdf)
 
 # Sensor: Sparkfun 9DoF Razor IMU
-![](artifacts/9DoFRazorIMU/9DoFRazorIMU.jpg)
+![](9DoFRazorIMU/9DoFRazorIMU.jpg)
 
 [Vendor Link](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all)
 
-[User Guide](artifacts/9DoFRazorIMU/UserGuide.pdf)
+[User Guide](9DoFRazorIMU/UserGuide.pdf)
 
-[Data Sheet](artifacts/9DoFRazorIMU/DataSheet.pdf)
+[Data Sheet](9DoFRazorIMU/DataSheet.pdf)
 
 ## Device Mapping
-For Raspberry Pi 4, there is a custom udev rule that looks for the proper vendor and product information, and then auto-creates a symlink to the device.  See [UDev Analysis](artifacts/9DoFRazorIMU/UDevAnalysis.md) for more information.
+For Raspberry Pi 4, there is a custom udev rule that looks for the proper vendor and product information, and then auto-creates a symlink to the device.  See [UDev Analysis](9DoFRazorIMU/UDevAnalysis.md) for more information.
 
 Current supported IMU's (on-hand):
-| IMU  | Device Name              |
-| ---- | ------------------------ |
-| IMU1 | `/dev/imu_SparkFun_183F` |
-| IMU2 | `/dev/imu_SparkFun_2115` |
+| IMU                                                  | Device Name              | Analysis Report                                                        |
+| ---------------------------------------------------- | ------------------------ | ---------------------------------------------------------------------- |
+| [Sparkfun 183F IMU](9DoFRazorIMU/IMU_Sparkfun_183F/) | `/dev/imu_SparkFun_183F` | [report](9DoFRazorIMU/IMU_Sparkfun_183F/analysis/IMU_Sparkfun_183F.md) |
+| IMU2                                                 | `/dev/imu_SparkFun_2115` |
 
 
 
@@ -68,16 +68,16 @@ sudo usermod -a -G dialout $USER
 # Sensor: Adafruit LSM9DS0
 
 # Sensor: Robotshop TM151
-![](artifacts/RobotshopTM151/RobotshopTM151.png)
+![](RobotshopTM151/RobotshopTM151.png)
 
 [Vendor Link](https://www.robotshop.com/products/transducerm-ahrs-9-axis-imu-for-robotics-autonomous-vehicles-tm151-tm171?srsltid=AfmBOoqOG8qVXYtEs8XnNk-hWy95FQ71PhYior65ziFs_HUChezgHLE8)
 
-[User Guide](artifacts/RobotshopTM151/TransducerM_TM100-200_UserGuide_EN_V131.pdf)
+[User Guide](RobotshopTM151/TransducerM_TM100-200_UserGuide_EN_V131.pdf)
 
-[Sample Code](artifacts/RobotshopTM151/TransducerM_Lib_Protocol_CPP/)
+[Sample Code](RobotshopTM151/TransducerM_Lib_Protocol_CPP/)
 
 ## Device Mapping
-For Raspberry Pi 4, there is a custom udev rule that looks for the proper vendor and product information, and then auto-creates a symlink to the device.  See [UDev Analysis](artifacts/RobotshopTM151/UDevAnalysis.md) for more information.
+For Raspberry Pi 4, there is a custom udev rule that looks for the proper vendor and product information, and then auto-creates a symlink to the device.  See [UDev Analysis](RobotshopTM151/UDevAnalysis.md) for more information.
 
 Current supported IMU's (on-hand):
 | IMU  | Device Name                        |
