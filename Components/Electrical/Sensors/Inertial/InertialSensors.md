@@ -5,10 +5,12 @@
 - [Sensors to Consider:](#sensors-to-consider)
 - [Sensor: NavX MXP IMU](#sensor-navx-mxp-imu)
 - [Sensor: Sparkfun 9DoF Razor IMU](#sensor-sparkfun-9dof-razor-imu)
+  - [Device Mapping](#device-mapping)
   - [Getting Started](#getting-started)
     - [Setup](#setup)
 - [Sensor: Adafruit LSM9DS0](#sensor-adafruit-lsm9ds0)
 - [Sensor: Robotshop TM151](#sensor-robotshop-tm151)
+  - [Device Mapping](#device-mapping-1)
 
 # Inertial Sensors
 
@@ -42,6 +44,15 @@
 
 [Data Sheet](artifacts/9DoFRazorIMU/DataSheet.pdf)
 
+## Device Mapping
+For Raspberry Pi 4, there is a custom udev rule that looks for the proper vendor and product information, and then auto-creates a symlink to the device.  See [UDev Analysis](artifacts/9DoFRazorIMU/UDevAnalysis.md) for more information.
+
+Current supported IMU's (on-hand):
+| IMU  | Device Name              |
+| ---- | ------------------------ |
+| IMU1 | `/dev/imu_SparkFun_183F` |
+| IMU2 | `/dev/imu_SparkFun_2115` |
+
 
 
 ## Getting Started
@@ -64,3 +75,11 @@ sudo usermod -a -G dialout $USER
 [User Guide](artifacts/RobotshopTM151/TransducerM_TM100-200_UserGuide_EN_V131.pdf)
 
 [Sample Code](artifacts/RobotshopTM151/TransducerM_Lib_Protocol_CPP/)
+
+## Device Mapping
+For Raspberry Pi 4, there is a custom udev rule that looks for the proper vendor and product information, and then auto-creates a symlink to the device.  See [UDev Analysis](artifacts/RobotshopTM151/UDevAnalysis.md) for more information.
+
+Current supported IMU's (on-hand):
+| IMU  | Device Name                        |
+| ---- | ---------------------------------- |
+| IMU1 | `/dev/imu_STMicroelectronics_3435` |
