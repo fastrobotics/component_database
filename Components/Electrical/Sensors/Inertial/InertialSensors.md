@@ -51,7 +51,7 @@ Current supported IMU's (on-hand):
 | IMU                                                  | Device Name              | Analysis Report                                                        |
 | ---------------------------------------------------- | ------------------------ | ---------------------------------------------------------------------- |
 | [Sparkfun 183F IMU](9DoFRazorIMU/IMU_Sparkfun_183F/) | `/dev/imu_SparkFun_183F` | [report](9DoFRazorIMU/IMU_Sparkfun_183F/analysis/IMU_Sparkfun_183F.md) |
-| IMU2                                                 | `/dev/imu_SparkFun_2115` |
+| IMU2                                                 | `/dev/imu_SparkFun_2115` | [report](9DoFRazorIMU/IMU_Sparkfun_2115/analysis/IMU_Sparkfun_2115.md) |
 
 
 
@@ -80,6 +80,6 @@ sudo usermod -a -G dialout $USER
 For Raspberry Pi 4, there is a custom udev rule that looks for the proper vendor and product information, and then auto-creates a symlink to the device.  See [UDev Analysis](RobotshopTM151/UDevAnalysis.md) for more information.
 
 Current supported IMU's (on-hand):
-| IMU  | Device Name                        |
-| ---- | ---------------------------------- |
-| IMU1 | `/dev/imu_STMicroelectronics_3435` |
+| IMU  | Device Name                        | Analysis                                                                             |
+| ---- | ---------------------------------- | ------------------------------------------------------------------------------------ |
+| IMU1 | `/dev/imu_STMicroelectronics_3435` | [report](RobotshopTM151/IMU_RobotshopTM151_3435/analysis/IMU_RobotshopTM151_3435.md) |

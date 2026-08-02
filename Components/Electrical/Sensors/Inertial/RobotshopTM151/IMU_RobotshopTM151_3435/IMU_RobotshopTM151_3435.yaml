@@ -1,0 +1,6 @@
+info:
+  name: IMU_RobotshopTM151_3435
+  device_name: /dev/imu_STMicroelectronics_3435
+  description: Robotshop TM151 9DoF IMU
+  manufacturer: STMicroelectronics
+  full_serial_number: 375D36663435
