@@ -1,0 +1,6 @@
+info:
+  name: IMU_Sparkfun_2115
+  device_name: /dev/imu_SparkFun_2115
+  description: Sparkfun 9DoF Razor IMU (MPU-9250)
+  manufacturer: Sparkfun
+  full_serial_number: A354B24F514E3254374A2020FF062115

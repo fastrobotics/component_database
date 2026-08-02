@@ -17,7 +17,7 @@ Table of Contents
 # Overview
 
 
-Generated on: 2026-08-01 17:36:38
+Generated on: 2026-08-01 21:35:24
 
 This report provides an analysis of the IMU data, including covariance matrices for orientation, gyroscope, linear acceleration, and magnetometer data. The analysis is based on the provided CSV files containing IMU and magnetic field data.
 ## IMU Parameters
@@ -35,11 +35,19 @@ This report provides an analysis of the IMU data, including covariance matrices 
 # IMU Analysis
 
 
+IMU Message Count: 290453
+
 IMU Data Duration: 3635.59 seconds
 
 IMU Data Average Frequency: 79.89 Hz
 ## Orientation Analysis
 
+
+Orientation Roll Average: -3.13834778 (rad) Standard Deviation: 0.0533
+
+Orientation Pitch Average: -0.00141028 (rad) Standard Deviation: 0.0119
+
+Orientation Yaw Average: -1.25994240 (rad) Standard Deviation: 0.0770
 
 Orientation Covariance Matrix:
 $$
@@ -54,6 +62,12 @@ $$
 ## Gyroscope Analysis
 
 
+Gyroscope X Average: -0.00216296 (rad/s) Standard Deviation: 1.3332
+
+Gyroscope Y Average: -0.00696537 (rad/s) Standard Deviation: 1.3987
+
+Gyroscope Z Average: -0.00146084 (rad/s) Standard Deviation: 1.4920
+
 Gyroscope Covariance Matrix:
 $$
 \begin{bmatrix}
@@ -66,6 +80,12 @@ $$
 ![](imu_gyroscope.png)
 ## Linear Acceleration Analysis
 
+
+Linear Acceleration X Average: 0.01901286 (m/s^2) Standard Deviation: 0.4520
+
+Linear Acceleration Y Average: -0.00224468 (m/s^2) Standard Deviation: 0.6084
+
+Linear Acceleration Z Average: -9.88933572 (m/s^2) Standard Deviation: 0.9610
 
 Linear Acceleration Covariance Matrix:
 $$
@@ -80,11 +100,19 @@ $$
 # IMU Magnetometer Analysis
 
 
+Magnetic Data Message Count: 292632
+
 Magnetic Data Duration: 3635.45 seconds
 
 Magnetic Data Average Frequency: 80.49 Hz
 ## Magnetometer Analysis
 
+
+Magnetometer X Average: 33.19205579 (T) Standard Deviation: 0.7490
+
+Magnetometer Y Average: 12.44128598 (T) Standard Deviation: 0.7562
+
+Magnetometer Z Average: -77.83428637 (T) Standard Deviation: 0.7269
 
 Magnetometer Covariance Matrix:
 $$
