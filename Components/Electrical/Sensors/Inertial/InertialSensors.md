@@ -11,6 +11,7 @@
 - [Sensor: Adafruit LSM9DS0](#sensor-adafruit-lsm9ds0)
 - [Sensor: Robotshop TM151](#sensor-robotshop-tm151)
   - [Device Mapping](#device-mapping-1)
+  - [Reference System](#reference-system)
 
 # Inertial Sensors
 
@@ -83,3 +84,8 @@ Current supported IMU's (on-hand):
 | IMU  | Device Name                        | Analysis                                                                             |
 | ---- | ---------------------------------- | ------------------------------------------------------------------------------------ |
 | IMU1 | `/dev/imu_STMicroelectronics_3435` | [report](RobotshopTM151/IMU_RobotshopTM151_3435/analysis/IMU_RobotshopTM151_3435.md) |
+
+## Reference System
+The IMU Driver created in [Driver](https://github.com/fastrobotics/robot_framework/blob/master/Systems/Pose/Subsystems/InertialSensor/Processes/IMU/doc/Process-IMU.md) follows the [ROS REP 103](https://www.ros.org/reps/rep-0103.html) Standard.
+
+The IMU has a reference frame attached.  The sensor has a small arrow that should be installed in the forward direction on the robot.

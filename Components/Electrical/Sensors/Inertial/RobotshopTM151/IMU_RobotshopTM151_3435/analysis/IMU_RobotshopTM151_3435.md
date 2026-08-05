@@ -17,7 +17,7 @@ Table of Contents
 # Overview
 
 
-Generated on: 2026-08-05 16:44:16
+Generated on: 2026-08-05 17:35:33
 
 This report provides an analysis of the IMU data, including covariance matrices for orientation, gyroscope, linear acceleration, and magnetometer data. The analysis is based on the provided CSV files containing IMU and magnetic field data.
 ## IMU Parameters
@@ -45,18 +45,18 @@ IMU Data Average Frequency: 90.62 Hz
 ## Orientation Analysis
 
 
-Orientation Roll Average: 0.51856190 (rad) Standard Deviation: 0.02607209
+Orientation Roll Average: 0.00905061 (rad) Standard Deviation: 0.00045504
 
-Orientation Pitch Average: -0.46148601 (rad) Standard Deviation: 0.01765433
+Orientation Pitch Average: -0.00805445 (rad) Standard Deviation: 0.00030813
 
-Orientation Yaw Average: 0.82370301 (rad) Standard Deviation: 0.12005704
+Orientation Yaw Average: 0.01437633 (rad) Standard Deviation: 0.00209539
 
 Orientation Covariance Matrix:
 $$
 \begin{bmatrix}
-0.0006797544318990 & 0.0001648235976246 & 0.0002930857643907 \\
-0.0001648235976246 & 0.0003116755246764 & -0.0004545616018998 \\
-0.0002930857643907 & -0.0004545616018998 & 0.0144137010441957 \\
+0.0000002070650411 & 0.0000000502081390 & 0.0000000892790293 \\
+0.0000000502081390 & 0.0000000949417941 & -0.0000001384673823 \\
+0.0000000892790293 & -0.0000001384673823 & 0.0000043906644217 \\
 \end{bmatrix}
 $$
 
