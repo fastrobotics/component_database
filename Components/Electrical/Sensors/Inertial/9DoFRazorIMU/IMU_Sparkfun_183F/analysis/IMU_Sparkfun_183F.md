@@ -17,13 +17,15 @@ Table of Contents
 # Overview
 
 
-Generated on: 2026-08-02 06:48:50
+Generated on: 2026-08-05 16:31:29
 
 This report provides an analysis of the IMU data, including covariance matrices for orientation, gyroscope, linear acceleration, and magnetometer data. The analysis is based on the provided CSV files containing IMU and magnetic field data.
 ## IMU Parameters
 
 
 - name: `IMU_Sparkfun_183F`
+
+- type: `RAZOR9DOF`
 
 - device_name: `/dev/imu_SparkFun_183F`
 
