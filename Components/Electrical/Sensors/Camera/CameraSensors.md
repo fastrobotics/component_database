@@ -2,8 +2,8 @@
 
 # Camera Sensors
 
-# Sensor: Asus Xtion Pro Live
-![](artifacts/AsusXtionProLive/AsusXtionProLive.png)
+# Sensor: [Asus Xtion Pro Live](AsusXtionCamera/AsusXtionCamera.md)
+![](AsusXtionCamera/artifacts/AsusXtionProLive.png)
 
 # Sensor: Arducam
 ![](artifacts/Arducam/Arducam.png)
