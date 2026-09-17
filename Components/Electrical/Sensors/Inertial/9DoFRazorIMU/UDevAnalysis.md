@@ -16,7 +16,7 @@ For IMU2: `/dev/imu_SparkFun_2115`
 ```bash
 udevadm info -a -n /dev/ttyACM0
 ```
-robot@ComputeModule1:/etc/udev/rules.d $ udevadm info -a -n /dev/ttyACM0
+robot@ControlModule1:/etc/udev/rules.d $ udevadm info -a -n /dev/ttyACM0
 
 Udevadm info starts with the device specified by the devpath and then
 walks up the chain of parent devices. It prints for every device
@@ -233,7 +233,7 @@ and the attributes from one single parent device.
 ```bash
 udevadm info -a -n /dev/ttyACM0
 ```
-robot@ComputeModule1:~/catkin_ws $ udevadm info -a -n /dev/imu_SparkFun_2115 
+robot@ControlModule1:~/catkin_ws $ udevadm info -a -n /dev/imu_SparkFun_2115 
 
 Udevadm info starts with the device specified by the devpath and then
 walks up the chain of parent devices. It prints for every device
