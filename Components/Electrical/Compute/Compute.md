@@ -20,4 +20,4 @@
 ![](RaspberryPi4ModelB/artifacts/RaspberryPi4ModelB.png)
 
 # [Nvidia Jetson Orin Nano Dev Kit](NvidiaJetsonOrinNanoDevKit/NvidiaJetsonOrinNanoDevKit.md)
-![](NvidiaJetsonOrinNanoDevKit/artifacts/691058_812057_01_front_comping.jpg)
+![](NvidiaJetsonOrinNanoDevKit/artifacts/NvidiaJetsonOrinNano.jpg)

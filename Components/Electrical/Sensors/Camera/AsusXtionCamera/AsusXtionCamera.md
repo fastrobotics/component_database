@@ -6,11 +6,11 @@
 ## Setup
 
 ```
-sudo apt install ros-noetic-openni2-camera ros-noetic-openni2-launch ros-noetic-rgbd-launch
+sudo apt update
+sudo apt install ros-jazzy-openni2-camera
 sudo apt install libopenni2-dev
-sudo service udev reload
-sudo service udev restart
-roslaunch openni2_launch openni2.launch depth_registration:=true
+ros2 launch openni2_camera camera_with_cloud.launch.py
+ros2 run rviz2 rviz2
 ```
 
 ## Depth Image
@@ -18,3 +18,20 @@ roslaunch openni2_launch openni2.launch depth_registration:=true
 
 ## Depth w/ Camera Image
 ![](artifacts/depth_camera.png)
+
+## Topic List
+```bash
+/camera/depth/camera_info [sensor_msgs/msg/CameraInfo]
+/camera/depth_raw/camera_info [sensor_msgs/msg/CameraInfo]
+/camera/depth_raw/image [sensor_msgs/msg/Image]
+/camera/depth_registered/image_raw [sensor_msgs/msg/Image]
+/camera/depth_registered/points [sensor_msgs/msg/PointCloud2]
+/camera/ir/camera_info [sensor_msgs/msg/CameraInfo]
+/camera/ir/image_raw [sensor_msgs/msg/Image]
+/camera/projector/camera_info [sensor_msgs/msg/CameraInfo]
+/camera/rgb/camera_info [sensor_msgs/msg/CameraInfo]
+/camera/rgb/image_raw [sensor_msgs/msg/Image]
+/parameter_events [rcl_interfaces/msg/ParameterEvent]
+/rosout [rcl_interfaces/msg/Log]
+/tf_static [tf2_msgs/msg/TFMessage]
+```
