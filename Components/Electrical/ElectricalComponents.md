@@ -5,6 +5,7 @@
 - [Display](#display)
 - [Joysticks \& Gamepads](#joysticks--gamepads)
 - [Sensors](#sensors)
+- [Storage](#storage)
 
 # Electrical Components
 
@@ -19,3 +20,6 @@
 
 # Sensors
 [Sensors](Sensors/Sensors.md)
+
+# Storage
+[Storage](Storage/Storage.md)
