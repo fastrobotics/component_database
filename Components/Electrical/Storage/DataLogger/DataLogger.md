@@ -8,6 +8,7 @@
   - [Requirements](#requirements)
   - [Devices](#devices)
     - [64GB USB Drive](#64gb-usb-drive)
+    - [8TB USB Drive](#8tb-usb-drive)
 - [Helpful Commands](#helpful-commands)
   - [See how much space is used on logger](#see-how-much-space-is-used-on-logger)
 
@@ -66,6 +67,10 @@ This should return a limit that matches the USB drive.
 
 ## Devices
 ### 64GB USB Drive
+
+### 8TB USB Drive
+Vectotech Rapid SSD
+S/N: VT600044471
 
 # Helpful Commands
 
